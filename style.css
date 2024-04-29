@@ -21,9 +21,10 @@ nav{
     height: 60%;
     margin-left: 10%;
     margin-right: 25%;
-    background-color: #AF52DE ;
+    /* background-color: #AF52DE ; */
     border-radius: 50px;
     padding: 10px;
+    margin-top: 20px;
 }
 nav ul{
 	float: right;
@@ -33,7 +34,7 @@ nav ul li{
 	display: inline-block;
 	/* line-height: 80px; */
     margin-top: 22px;
-    margin-left: 35px;
+    margin-left: 10px;
 }
 .nav-button{
     border: 1px solid #AF52DE;
@@ -42,6 +43,11 @@ nav ul li{
 	text-transform: capitalize;
 	padding: 8px 14px;
     border-radius: 50px;
+}
+.logo-div{
+    background-color: #eb93f7;
+    height: 100%;
+    width: 50.1%;
 }
 button:hover{
 	background-color: rgba(255, 255, 255, 0.411);
@@ -59,7 +65,7 @@ nav ul li a{
 	font-size: 30px;
 	color: #AF52DE;
 	display: none;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     z-index: 100;
 }
 #check{
@@ -92,6 +98,8 @@ nav ul li a{
 	}
 	#checkbtn{
 		display: block;
+        background-color: #eb93f7;
+        width: 80px;
 	}
 	nav ul{
 		width: 100%;
@@ -115,6 +123,21 @@ nav ul li a{
     .nav-button{
         margin-top: 30px;
         margin-left: 80px;
+    }
+    /* .nav-button{
+        border: 1px solid #AF52DE;
+        color: #AF52DE;
+        font-size: 16px;
+        text-transform: capitalize;
+        padding: 8px 14px;
+        border-radius: 50px;
+    } */
+    .logo-div{
+        background-color: #eb93f7;
+        height: 100%;
+        width: 100%;
+        /* position: relative;
+        right: 30px; */
     }
 }
 
@@ -307,7 +330,7 @@ nav ul li a{
 /* -------------------------Text and slides------------------------- */
 .slider-and-text{
     width: 100%;
-    height: 1150px;
+    height: 1250px;
     display: flex;
     flex-direction: column;
     background: black;
@@ -317,7 +340,7 @@ nav ul li a{
 }
 .slider-txt{
     width: 100%;
-    height: 650px;
+    height: 750px;
 }
 .or{
     margin: 20px 10px;
